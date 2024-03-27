@@ -1,3 +1,8 @@
+html, body {
+  font-family: 'serif','ＭＳ Ｐ明朝';
+  background-color: #F0F8FF;
+}
+
 .lead-form{
   text-align: center;
   font-size:20px;
