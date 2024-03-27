@@ -44,7 +44,6 @@ textarea{
   text-align: center;
 }
 
-/*まずはお決まりのボックスサイズ算出をborer-boxに */
 *,
 *:before,
 *:after {
@@ -55,7 +54,7 @@ textarea{
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 62.5%;/*rem算出をしやすくするために*/
+  font-size: 62.5%;
 }
 
 .btn,
@@ -92,7 +91,7 @@ button.btn {
   transform-style: preserve-3d;
 }
 
-a.btn-border:before {
+.btn-border:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -110,7 +109,7 @@ a.btn-border:before {
   background: #000;
 }
 
-a.btn-border:hover:before {
+.btn-border:hover:before {
   font-family: 'Font Awesome 5 Free';
   font-weight: bold;
   line-height: 30px;
