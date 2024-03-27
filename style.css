@@ -15,6 +15,7 @@ form{
 }
 
 .item{
+  font-size:6
   overflow: hidden;
   margin-bottom: 20px;
 }
