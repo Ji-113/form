@@ -84,6 +84,7 @@ a.btn-flat:hover:before {
 footer {
 　background-color: #3CB371	;
 　color: whitesmoke;
+  text-align: center
 }
 
 .footer-menu {
